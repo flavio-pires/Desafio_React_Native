@@ -8,6 +8,6 @@ app.use(express.json());
 app.use(routes);
 app.listen(3333);
 
-app.get('/', async (resquest, response)=>{
-    return response.send("Hello World")
-});
+//app.get('/', async (request, response)=>{
+//    return response.send("Hello World")
+//});
